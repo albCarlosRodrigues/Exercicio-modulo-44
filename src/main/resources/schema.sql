@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS usuarios (
+    email VARCHAR(254) PRIMARY KEY,
+    sal VARBINARY(16) NOT NULL,
+    senha_hash VARBINARY(32) NOT NULL
+);
